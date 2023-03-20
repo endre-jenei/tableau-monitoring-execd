@@ -44,7 +44,7 @@ fn main() {
             .short('c')
             .long("checks")
             .value_name("CHECKS")
-            .about("Username for TSM Authentication")
+            .about("Which method(s) to use for collecting status data")
             .env("TME_CHECKS")
             .takes_value(true)
             .default_value("all")
